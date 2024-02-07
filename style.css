@@ -1,0 +1,164 @@
+body{
+    max-width: 100%;
+    background-color: aliceblue;
+}
+.heading{
+    background-color: white;
+    margin: 1px solid rgba(245, 244, 244, 0.564);
+    padding: 10px;
+}
+.parent{
+    position: relative;
+}
+.parent1{
+    position: absolute;
+    top: 50px;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+}
+.parent2{
+    position: absolute;
+    top: 50px;
+    width: 600px;
+    height: 800px;
+    left: 600px;
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px;
+    
+}
+.child1{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 100px;
+    height: 300px;
+    
+}
+.child2{
+    position: absolute;
+    
+    
+}
+.mainim{
+    width: 420px;
+    height: 370px;
+    position: absolute;
+    left: 150px;
+    border: 1px solid rgba(242, 228, 228, 0.719);
+    margin-top: 15px;
+}
+.subim{
+    width: 70px ;
+    height: 70px;
+    border: 1px solid rgba(242, 228, 228, 0.719);
+    margin: 5px;
+}
+
+.subim:hover{
+    border: 3px solid rgb(98, 179, 236);
+    border-radius: 2px;
+
+}
+.pera{
+    font-size: 20px;
+    font-weight: bold;
+}
+#star{
+    color: rgb(36, 174, 36);
+    font-size: 12px;
+}
+.pera2{
+    font-size: 16px;
+}
+.cent{
+    background-color: aliceblue;
+    margin: 1px;
+    padding: 7px;
+}
+.cent2{
+    background-color: aliceblue;
+    margin: 0 10px;
+    padding: 7px;
+}
+.cent3{
+    background-color: aliceblue;
+    padding: 7px;
+    margin-top: 20px;
+    position: absolute;
+    top: 15px;
+    font-weight: bold;
+
+}
+.button{
+    position: relative;
+}
+.cent4{
+    position: absolute;
+    top: 90px;
+    border: 1px solid rgb(207, 27, 27);
+    color: rgb(207, 27, 27) ;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.cent5{
+    position: absolute;
+    top: 150px;
+    color: rgb(74, 164, 217);
+    font-size: 16px;
+    font-weight: bold;
+}
+.cent6{
+    position: absolute;
+    top: 180px;
+}
+.pera5{
+    font-size: 22px;
+    font-weight: bold;
+}
+.cent7{
+    position: absolute;
+    top: 400px;
+    border: 2px solid  rgb(223, 227, 231);
+    margin: 1px;
+    padding: 6px 50px;
+    border-radius: 3px;
+}
+.cent8{
+    position: absolute;
+    top: 402px;
+    left: 145px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(10, 164, 10);
+    padding: 7px 20px;
+    border: 1px solid rgb(7, 172, 7);
+    border-radius: 3px;
+}
+.cent9{
+    position: absolute;
+    top: 401px;
+    left: 305px;
+    color: black;
+    background-color: aliceblue;
+    margin: 1px;
+    border: 1px solid aliceblue;
+    padding: 7px 21px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pera12{
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    font-size: 14px;
+    opacity: 60%;
+}
+.cent4:hover{
+    color: white;
+    background-color: rgb(207, 27, 27) ;
+    font-weight: bold;
+}
